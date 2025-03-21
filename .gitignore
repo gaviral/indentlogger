@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / build folders
+build/
+dist/
+*.egg-info/
+
+# Virtual environment (optional naming)
+venv/
+.venv/
+
+# macOS or Linux system files
+.DS_Store
+
+# PyCharm / VSCode / IntelliJ project files
+.idea/
+.vscode/
+
+# If you used coverage or testing
+.coverage
+htmlcov/ 
