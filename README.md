@@ -8,9 +8,21 @@
 
 ## Installation
 
-**From PyPI** (once published):
+**From PyPI**:
 ```bash
 pip install indentlogger
+```
+
+**From GitHub**:
+```bash
+pip install git+https://github.com/gaviral/indentlogger.git
+```
+
+**Development setup**:
+```bash
+git clone https://github.com/gaviral/indentlogger.git
+cd indentlogger
+pip install -e .
 ```
 
 ## Quick Start
@@ -33,7 +45,7 @@ def sample_function(x):
 sample_function(42)
 ```
 
-When run, you’ll see ASCII “boxes” showing function entry, your log, and function exit.
+When run, you'll see ASCII "boxes" showing function entry, your log, and function exit.
 
 ## Configuration
 
@@ -52,7 +64,7 @@ logger.configure(style=LogStyle.SIMPLE, level=logging.INFO, auto_log_level=loggi
 
 ### Auto-Log an Entire Module
 
-If you **don’t** want to decorate each function, let the logger scan and decorate everything for you:
+If you **don't** want to decorate each function, let the logger scan and decorate everything for you:
 
 ```python
 import logging
@@ -175,6 +187,21 @@ fun1():
 ### DISABLED
 No output at all.
 
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
 ## License
 
-**MIT**. Free to use, extend, and modify.
+**MIT**. Free to use, extend, and modify. See the [LICENSE](LICENSE) file for details.
+
+## Links
+
+- GitHub: [https://github.com/gaviral/indentlogger](https://github.com/gaviral/indentlogger)
+- Bug Reports: [https://github.com/gaviral/indentlogger/issues](https://github.com/gaviral/indentlogger/issues)
